@@ -36,57 +36,57 @@
   <!-- navbar section -->
    <section>
     <nav>
-        <div class="navbar bg-base-100">
-            <div class="navbar-start">
-              <div class="dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor">
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M4 6h16M4 12h8m-8 6h16" />
-                  </svg>
-                </div>
-                <ul
-                  tabindex="0"
-                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                  <li><a>Item 1</a></li>
-                  
-                  <li><a>Item 3</a></li>
-                </ul>
-              </div>
-              <i class="fa-solid fa-arrow-right"></i>
-              <a class="btn btn-ghost text-xl">Rinterio</a>
-            </div>
-            <div class="navbar-center hidden lg:flex">
-              <ul class="menu menu-horizontal px-1">
-                <li><a>Home</a></li>
-                <li><a>Services</a></li>
-                <li><a>Portfolio</a></li>
-                <li><a>Blogs</a></li>
-                <li><a>Contact Us</a></li>
-              </ul>
-            </div>
-            <div class="navbar-end">
-                
-                <div>
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    <i class="fa-solid fa-cart-shopping"></i>
-                    <a class="btn">Book Consult <i class="fa-solid fa-arrow-right"></i></a>
-                    
-                </div>
-            </div>
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          
+          <a class="btn btn-ghost text-xl"><i class="fa-solid fa-arrow-right -rotate-45 bg-lime-500 p-1 rounded-full m-2"></i>Rinterio</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li class="text-gray-500 hover:text-black"><a>Home</a></li>
+            <li class="text-gray-500 hover:text-black"><a>Services</a></li>
+            <li class="text-gray-500 hover:text-black"><a>Portfolio</a></li>
+            <li class="text-gray-500 hover:text-black"><a>Blogs</a></li>
+            <li class="text-gray-500 hover:text-black"><a>Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end hidden lg:flex space-x-2">
+          <button class="btn rounded-full">
+            <i class="fa-solid fa-magnifying-glass text-gray-500"></i>
+          </button>
+          <button class="btn rounded-full"><i class="fa-solid fa-cart-shopping text-gray-500"></i></button>
+          <a class="btn bg-lime-600 rounded-full">Book Consult<i class="fa-solid fa-arrow-right -rotate-45 bg-black text-white p-1 rounded-full m-2"></i></a>
+        </div>
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost ml-24 lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
           </div>
+          <ul
+            tabindex="0"
+            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+            <li><a>Home</a></li>
+            <li><a>Services</a></li>
+            <li><a>Portfolio</a></li>
+            <li><a>Blogs</a></li>
+            <li><a>Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
     </nav>
    </section>
    <!-- banner section -->
-    <section class="text-center">
+    <section class="text-center lg:p-8">
              <div class="flex justify-center items-center">
                 <img src="./assets/banner.png" alt="">
             </div>
@@ -100,6 +100,41 @@
      </header>
      <main>
       <!-- Our Works Process section -->
+       <section class="bg-gray-200">
+        <div class="container mx-auto p-10">
+          <div class="text-center">
+            <button class="mt-24 mb-6 bg-white p-2 font-bold rounded-full"><i class="fa-solid fa-arrow-right p-2"></i>How we works</button>
+            <h2 class="text-2xl lg:text-4xl font-bold mb-4 lg:mb-6">Our Works Process</h2>
+            <p class="lg:text-1xl lg:font-medium" >The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.</p>
+          </div>
+          <div class="grid grid-cols-1 lg:grid-cols-4 gap-8 mt-8 lg:mt-16">
+<!-- 1st card -->
+ <div class="bg-pink-200 p-4 rounded-lg">
+ <img class="mb-4" src="./assets/concept.png" alt="">
+  <h1 class="text-xl font-bold mb-4">Concept</h1>
+  <p class="text-base font-medium">The barn house captivates with its blend of rustic charm and modern.</p>
+ </div>
+ <!-- 2nd card -->
+ <div class="bg-yellow-100 p-4 rounded-lg">
+  <img class="mb-4" src="./assets/flow-chart.png" alt="">
+   <h1 class="text-xl font-bold mb-4">Design Process</h1>
+   <p class="text-base font-medium">The barn house captivates with its blend of rustic charm and modern.</p>
+  </div>
+  <!-- 3rd card -->
+ <div class="bg-green-100 p-4 rounded-lg">
+  <img class="mb-4" src="./assets/vision.png" alt="">
+   <h1 class="text-xl font-bold mb-4">Supervision</h1>
+   <p class="text-base font-medium">The barn house captivates with its blend of rustic charm and modern.</p>
+  </div>
+  <!-- 4th card -->
+ <div class="bg-blue-200 p-4 rounded-lg">
+  <img class="mb-4" src="./assets/budget-planning.png" alt="">
+   <h1 class="text-xl font-bold mb-4">Budget Planning</h1>
+   <p class="text-base font-medium">The barn house captivates with its blend of rustic charm and modern.</p>
+  </div>
+          </div>
+        </div>
+        </section>
       <!-- Our Latest Portfolio section -->
        <section class="container mx-auto mb-28">
         <div class="text-center">
@@ -157,7 +192,7 @@
         </div>
        </section>
       <!-- Let’s Discuss Next Project section -->
-       <section class="bg-[url('/assets/bg.jpg')]">
+       <section class="bg-[url('/assets/bg.jpg')] p-4">
              <div class="container mx-auto">
               <div class="text-center ">
                 <button class="mt-24 mb-6 bg-lime-200 p-2 font-bold rounded-full"><i class="fa-solid fa-arrow-right p-2"></i>Let’s Connect</button>
